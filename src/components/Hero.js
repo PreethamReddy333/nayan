@@ -14,7 +14,7 @@ export default function Hero() {
           </h1>
           <p className="hero-subtitle">
             NayanSaathi uses AI to transform your phone&apos;s camera into an
-            intelligent visual assistant — describing scenes, reading text, and
+            intelligent visual assistant, describing scenes, reading text, and
             answering questions in your language.
           </p>
           <div className="hero-actions">

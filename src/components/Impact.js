@@ -105,7 +105,7 @@ export default function Impact() {
           {quotes.map((quote) => (
             <blockquote key={quote.attribution} className="impact-quote">
               <p>&ldquo;{quote.text}&rdquo;</p>
-              <footer>— {quote.attribution}</footer>
+              <footer>{quote.attribution}</footer>
             </blockquote>
           ))}
         </div>

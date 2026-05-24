@@ -15,7 +15,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata = {
-  title: 'NayanSaathi — AI Vision Aid for the Visually Impaired',
+  title: 'NayanSaathi | AI Vision Aid for the Visually Impaired',
   description:
     'NayanSaathi is an AI-powered mobile app that helps visually impaired individuals see the world through sound. Real-time image descriptions, multilingual support, and voice-based Q&A.',
   keywords: [
@@ -30,7 +30,7 @@ export const metadata = {
     'image description',
   ],
   openGraph: {
-    title: 'NayanSaathi — AI Vision Aid for the Visually Impaired',
+    title: 'NayanSaathi | AI Vision Aid for the Visually Impaired',
     description:
       'Empowering blind individuals with AI-powered real-time image descriptions, multilingual support, and interactive voice Q&A.',
     url: 'https://nayansati.com',

@@ -24,7 +24,7 @@ export default function Testimonial() {
         <blockquote className="testimonial-quote">
           <p>&ldquo;I read a timetable at the bus stop by myself for the first time.&rdquo;</p>
           <footer className="testimonial-attribution">
-            — Student, Devnar School for the Blind, Hyderabad
+            Student, Devnar School for the Blind, Hyderabad
           </footer>
         </blockquote>
       </div>

@@ -6,7 +6,7 @@ export default function HowItWorks() {
       number: '1',
       title: 'Capture',
       description:
-        'Point your phone\'s camera at anything — a scene, a document, or a sign.',
+        'Point your phone\'s camera at anything: a scene, a document, or a sign.',
       icon: (
         <svg width="40" height="40" viewBox="0 0 24 24" fill="none" aria-hidden="true">
           <rect x="2" y="6" width="20" height="14" rx="2" stroke="currentColor" strokeWidth="1.5" />

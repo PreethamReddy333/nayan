@@ -21,7 +21,7 @@ export default function Contact() {
           Join Our Mission
         </h2>
         <p className="contact-subtitle">
-          Whether you&apos;re a developer, researcher, or advocate — let&apos;s work
+          Whether you&apos;re a developer, researcher, or advocate, let&apos;s work
           together to make the world more accessible.
         </p>
 
