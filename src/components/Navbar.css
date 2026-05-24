@@ -2,12 +2,36 @@
    Navbar
    ═══════════════════════════════════════════════════ */
 
-.navbar {
+.header-container {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 1000;
+  display: flex;
+  flex-direction: column;
+}
+
+.announcement-bar {
+  background: linear-gradient(135deg, var(--blue-600), var(--blue-500));
+  color: var(--white);
+  padding: 8px 24px;
+  text-align: center;
+  font-size: 0.82rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.01em;
+  line-height: 1.4;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.announcement-bar strong {
+  font-weight: 700;
+}
+
+.navbar {
   padding: 20px 24px;
   background: transparent;
   transition: background var(--transition-base),
@@ -15,7 +39,7 @@
               padding var(--transition-base);
 }
 
-.navbar.scrolled {
+.header-container.scrolled .navbar {
   background: var(--white);
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.06);
   padding: 14px 24px;

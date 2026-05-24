@@ -18,7 +18,13 @@ export default function Recognition() {
       icon: '🏫',
       title: 'Devnar School Partnership',
       description:
-        'Implemented and tested with 20 visually impaired students aged 8-18 at the Devnar School for the Blind, Hyderabad.',
+        'Implemented and tested with 30+ visually impaired students aged 8-18 at the Devnar School for the Blind, Hyderabad.',
+    },
+    {
+      icon: '🌱',
+      title: 'CSR Funding Secured',
+      description:
+        'Secured ₹5 Lakh in CSR funding to provide 500 blind students free access to the NayanSaathi app.',
     },
   ];
 
