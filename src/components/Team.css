@@ -1,0 +1,91 @@
+.team {
+  padding: 5rem 2rem;
+  background: #fff;
+}
+
+.team-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.team-subtitle {
+  font-size: 1.1rem;
+  color: #555;
+  margin: 0.75rem 0 2.5rem;
+  line-height: 1.6;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.team-card {
+  background: #f8fafc;
+  border-radius: 12px;
+  padding: 2.5rem 2rem;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-4px);
+}
+
+.team-avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #1a73e8, #4da3ff);
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.25rem;
+}
+
+.team-name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 0 0 0.3rem;
+}
+
+.team-role {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #1a73e8;
+  background: #e8f0fe;
+  padding: 0.2rem 0.75rem;
+  border-radius: 20px;
+  margin-bottom: 0.75rem;
+}
+
+.team-department {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0 0 0.75rem;
+}
+
+.team-email {
+  font-size: 0.9rem;
+  color: #1a73e8;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.team-email:hover {
+  color: #1557b0;
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+}

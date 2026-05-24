@@ -1,0 +1,133 @@
+/* ═══════════════════════════════════════════════════
+   Problem
+   ═══════════════════════════════════════════════════ */
+
+.problem {
+  padding: 96px 24px;
+  background: var(--white);
+}
+
+/* ── Header ── */
+.problem-header {
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.problem-header .section-subtext {
+  margin: 16px auto 0;
+}
+
+/* ── Stats Row ── */
+.problem-stats {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+  margin-bottom: 64px;
+  flex-wrap: wrap;
+}
+
+.problem-stat {
+  text-align: center;
+}
+
+.problem-stat-number {
+  font-family: var(--font-heading);
+  font-size: clamp(2.5rem, 4vw, 3.5rem);
+  font-weight: 700;
+  color: var(--blue-500);
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.problem-stat-label {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: var(--gray-600);
+  max-width: 180px;
+}
+
+/* ── Comparison Cards ── */
+.problem-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.problem-card {
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-md);
+  padding: 32px 28px;
+  transition: box-shadow var(--transition-base),
+              transform var(--transition-base);
+}
+
+.problem-card:hover {
+  box-shadow: var(--shadow-card);
+  transform: translateY(-2px);
+}
+
+.card-tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  background: var(--gray-100);
+  color: var(--gray-600);
+  margin-bottom: 16px;
+}
+
+.card-tag.limited {
+  background: #FEF3C7;
+  color: #92400E;
+}
+
+.card-tag.expensive {
+  background: #FEE2E2;
+  color: #991B1B;
+}
+
+.card-tag.fragmented {
+  background: var(--blue-50);
+  color: var(--blue-700);
+}
+
+.problem-card h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: var(--gray-900);
+}
+
+.problem-card p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--gray-600);
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .problem {
+    padding: 64px 20px;
+  }
+
+  .problem-stats {
+    gap: 40px;
+  }
+
+  .problem-cards {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .problem-stats {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+}

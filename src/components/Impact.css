@@ -1,0 +1,88 @@
+.impact {
+  padding: 5rem 2rem;
+  background: #fff;
+}
+
+.impact-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.impact-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.impact-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.impact-stat-value {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #1a73e8;
+}
+
+.impact-stat-label {
+  font-size: 0.9rem;
+  color: #666;
+  font-weight: 500;
+}
+
+.impact-quotes {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 2.5rem 0;
+  text-align: left;
+}
+
+.impact-quote {
+  padding: 1.25rem 1.5rem;
+  border-left: 4px solid #1a73e8;
+  background: #f8fafc;
+  border-radius: 0 8px 8px 0;
+  margin: 0;
+}
+
+.impact-quote p {
+  font-size: 1.05rem;
+  color: #1a1a2e;
+  line-height: 1.6;
+  font-style: italic;
+  margin: 0 0 0.5rem;
+}
+
+.impact-quote footer {
+  font-size: 0.9rem;
+  color: #666;
+  font-style: normal;
+}
+
+.impact-attribution {
+  font-size: 0.9rem;
+  color: #888;
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .impact-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .impact-stat-value {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .impact-stats {
+    grid-template-columns: 1fr;
+  }
+}
